@@ -1,0 +1,22 @@
+@api = http://localhost:8080/create
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "Col1":100,
+    "Col2":100,
+    "Col3":1000,
+    "Col4":1000,
+    "Col5":100,
+    "Col6":1000,
+    "Col7":1000,
+    "Col8":1000,
+    "Col9":1000,
+    "Col10":1000
+}
+
+
+

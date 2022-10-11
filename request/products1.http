@@ -1,0 +1,24 @@
+@api = http://localhost:8080/products
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "ProductID":1000,
+    "Name": "Mountain Bike Socks, L",
+    "Color":"White",
+    "Quantity":10,
+    "ModifiedDate":"11/10/2022",
+    "Col1":100000,
+    "Col2":100000,
+    "Col3":100000,
+    "Col4":100000,
+    "Col5":100000,
+    "Col6":100000,
+    "Col7":100000,
+    "Col8":100000,
+    "Col9":100000,
+    "Col10":100000
+}
