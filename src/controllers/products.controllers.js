@@ -27,7 +27,7 @@ export const createNewProduct = async (req,res) => {
 
     const pool1 = await getConnection();
     let i = 0;
-    while(i<10000){
+    while(i<100){
         await pool1.request()
         .input("ProductID",sql.Int,ProductID)
         .input("Name",sql.VarChar,Name)
@@ -60,7 +60,7 @@ export const createNewCustomer = async (req,res) => {
 
     const pool = await getConnec();
     let i = 0;
-    while(i<1000){
+    while(i<100){
         await pool.request()
         .input("Col1",sql.Int,Col1)
         .input("Col2",sql.Int,Col2)
